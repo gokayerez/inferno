@@ -1,0 +1,10 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+		"name": "Extra damage",
+		"operation": "addition",
+		"value": 2.0
+	},
+	"name": "Street brawler///",
+	"description": "You can hit pretty hard, after all its the bare bones of surviving \nin this harsh existence.\n[Plus 2 Damage for your attacks]"
+}
