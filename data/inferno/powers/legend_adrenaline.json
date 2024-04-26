@@ -1,10 +1,28 @@
 {
-  "type": "origins:modify_damage_dealt",
-  "modifier": {
-    "name": "Extra damage",
-    "operation": "addition",
-    "value": 2.0
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:resistance",
+        "duration": 100,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:speed",
+        "duration": 100,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ]
   },
-  "name": "Street brawler///",
-  "description": "You can hit pretty hard, after all its the bare bones of surviving \nin this harsh existence.\n[Plus 2 Damage for your attacks]"
+  "cooldown": 400,
+  "hud_render": {
+    "should_render": true
+  },
+  "name": "Adrenaline rush///",
+  "description": "You been in fighting situations before and love the rush! not to mention\nthe cybernetics but those are bottom of the barrel HAH.\nOn activation gain [RESISTANCE 1] AND [SPEED 1] for 5 seconds (Cooldown 30 seconds)"
 }

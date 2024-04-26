@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"inferno:legend_brawl"
+		"inferno:legend_brawl",
+		"inferno:legend_adrenaline"
 	],
 	"icon": "minecraft:iron_sword",
 	"order": 1,
